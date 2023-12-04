@@ -19,7 +19,7 @@ dfs = dict()
 #     fl= str1+file+'.csv'
 #     dfs[file] = pd.read_csv(fl,encoding='ISO-8859-1')
 
-str1 = r'C:\Users\LakuJayanth\Documents\UNCC\DSBA_5122\Streamlit\Data\inclass_1204\Restaurant_Mexico' + '\\'
+# str1 = r'C:\Users\LakuJayanth\Documents\UNCC\DSBA_5122\Streamlit\Data\inclass_1204\Restaurant_Mexico' + '\\'
 for file in files:
     fl= file+'.csv'
     dfs[file] = pd.read_csv(fl,encoding='ISO-8859-1')
